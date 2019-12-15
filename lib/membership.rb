@@ -6,7 +6,7 @@ class Membership
 
   # INIT #
 
-  def initialize(lifter, gym, cost)
+  def initialize(lifter, gym, cost)   # WORKS #
     @gym = gym
     @lifter = lifter
     @cost = cost
@@ -17,7 +17,7 @@ class Membership
 
   # CLASS METHODS #
 
-  def self.all
+  def self.all    # WORKS #
     @@all
   end
 
